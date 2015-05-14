@@ -7,6 +7,8 @@ gem 'rails', '4.1.8'
 gem 'sqlite3'
 # Use carrierwave for uploading files
 gem 'carrierwave'
+# Use mini_magick for image processing with ImageMagick
+gem 'mini_magick', '3.8.0'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
@@ -24,6 +26,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0',          group: :doc
+
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
